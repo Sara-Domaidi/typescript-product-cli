@@ -21,3 +21,11 @@ A simple Command Line Interface (CLI) application built with **TypeScript**, **S
    ```bash
    git clone [https://github.com/Sara-Domaidi/typescript-product-cli.git](https://github.com/Sara-Domaidi/typescript-product-cli.git)
    cd typescript-product-cli
+   2. **Install dependencies:**
+   ```bash
+   npm install
+   # To see all commands:
+node --import tsx src/index.ts --help
+
+# To list products:
+node --import tsx src/index.ts list
