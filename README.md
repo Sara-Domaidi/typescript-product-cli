@@ -1,3 +1,4 @@
+
 ```markdown
 # TypeScript Product CLI Tool
 
@@ -36,31 +37,31 @@ Follow these steps to get your development environment running:
    ```
 
 ## Usage Guide
-You can run the tool directly using `tsx` without a manual build step. Use the following commands:
+This project uses **Yarn scripts** for easier execution. Use the following commands:
 
 ### 1. List All Products
 ```bash
-node --import tsx src/index.ts list
+yarn all
 ```
 
 ### 2. Get Product by ID
 ```bash
-node --import tsx src/index.ts get <id>
+yarn get-p <id>
 ```
 
 ### 3. Add a New Product
 ```bash
-node --import tsx src/index.ts add "Product Name" <price>
+yarn add-p "Product Name" <price>
 ```
 
 ### 4. Update an Existing Product
 ```bash
-node --import tsx src/index.ts update <id> "New Name" <new_price>
+yarn up <id> "New Name" <new_price>
 ```
 
 ### 5. Delete a Product
 ```bash
-node --import tsx src/index.ts delete <id>
+yarn del <id>
 ```
 
 ## Technical Stack
